@@ -1,47 +1,13 @@
-# TM Create-React-App
-
-Custom version of create-react-app with some changes and additions
-
-## Changes
-
-- Removed index.css, serviceworker, logo and App.test
-- Installed React Router v4
-- App.js changes (Added Header, Route, arrow function)
-- Added a components folder with Header, Home & Spinner
-- Added base styles in App.css for buttons, backgrounds, etc (Remove if needed)
-- Added Font Awesome to public/index.html
+# Vincii code test
 
 ## Usage
 
 ```
-git clone git@github.com:bradtraversy/tm-react-starter.git
-npm install
+git clone 
+yarn && yarn start
 ```
 
-### File Structure
-
-```
-├── README.md
-├── node_modules
-├── package.json
-├── .gitignore
-├── public
-│   ├── favicon.ico
-│   ├── index.html
-│   └── manifest.json
-└── src
-    ├── components
-        ├── layout
-            ├── Header.js
-            ├── Spinner.js
-        ├── pages
-            ├── Home.js
-    ├── App.css
-    ├── App.js
-    ├── index.js
-```
-
-### `npm start`
+### `yarn start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
